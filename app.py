@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-# This creates a WSGI appllication (Web service global interface)
+# This creates a WSGI application (Web service global interface)
 
 @app.route('/') # --> Root Web URL
 def welcome():
